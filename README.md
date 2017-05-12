@@ -2,6 +2,18 @@
 
 This is a paper I've written to apply for a variety of scholarships.
 
+## Build Instructions:
+
+I use `latexmk` for my build process, it makes building `*TeX` documents much
+easier.
+
+```shell
+$ mkdir out
+$ latexmk -pdf -xelatex -outdir=out header.tex
+```
+
+The resulting pdf will be in `out/header.pdf`.
+
 ## Author
 
 - [Theodore Seán Tubbs](https://github.com/AdrianKoshka)
