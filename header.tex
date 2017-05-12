@@ -1,0 +1,35 @@
+\documentclass[a4paper,oneside]{article}
+
+\usepackage[english]{isodate}		% Tune the output format of dates according to language
+\usepackage{xcolor} 			% Driver-independent color extensions for LATEX and pdfLATEX
+\usepackage{fontspec}			% Advanced font selection in XELATEX and LuaLATEX
+\usepackage{graphicx}			% Enhanced support for graphics
+\usepackage{hyperref}			% Extensive support for hypertext in LATEX
+\usepackage{titling}			% Control over the typesetting of the \maketitle command
+\usepackage{titlesec}			% Select alternative section titles
+\usepackage{float}			% Improved interface for floating objects
+\usepackage{wrapfig}			% Produces figures which text can flow around
+\usepackage{setspace}			% Set space between lines
+
+% code snippet from http://ctan.mirrors.hoobly.com/info/latex-samples/TitlePages/titlepages.pdf
+% page 52
+% slightly adapted/changed for my own use
+\newcommand*{\titleS}{\begingroup% Scripts, T&H p 151
+\drop = 0.1\textheight
+\centering
+\vspace*{\drop}
+{\Huge Scholarship Application Essay}\\%[\baselineskip]
+\noindent\rule{4cm}{0.4pt}\\[\baselineskip]
+{\large\itshape By: Theodore Se\'{a}n Tubbs}\\[\baselineskip]
+\vfill
+\rule{0.4\textwidth}{0.4pt}\\[\baselineskip]
+{\large\itshape DCMO BOCES}\par
+\vspace*{\drop}
+\endgroup}
+
+\begin{document}
+	\include{title-page}
+%	\begin{spacing}{2}
+		\include{body}
+%	\end{spacing}
+\end{document}
