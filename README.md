@@ -1,6 +1,6 @@
 # Scholarship Paper
 
-This is a paper I've written to apply to a variety of scholarships.
+This is a paper I've written to apply for a variety of scholarships.
 
 ## Author
 
